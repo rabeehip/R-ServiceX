@@ -1,6 +1,7 @@
-# Top-level configuration
-name = "web"
+name = "moohargha"
 main = "./index.js"
-compatibility_date = "2022-07-12"
+compatibility_date = "2024-02-01"
 
 workers_dev = false
+build = "npm run build"
+node_compat = true
