@@ -1,4 +1,4 @@
-name = "moohargha"
+name = "web"
 main = "./index.js"
 compatibility_date = "2024-02-01"
 
