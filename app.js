@@ -6185,7 +6185,7 @@ function onSearchResultItemClick(a_ele) {
         ? '<i class="mdui-icon material-icons">folder</i>'
         : '<i class="mdui-icon material-icons">insert_drive_file</i>';
       const href = `/${cur}:${data}${can_preview ? "?a=view" : ""}`;
-      const linkHTML = `${icon} <span class="mdui-text-color-theme" style="margin-left: 4px;">${name}</span>`;
+      const linkHTML = `${icon} <span class="mdui-text-color-theme">${name}</span>`;
       
       mdui.dialog({
         title: `
@@ -6383,12 +6383,12 @@ function file_video(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-typo-body-1 mdui-m-t-2">
-       <i class="mdui-icon material-icons">perm_media</i> Media information
+    <div class="mdui-typo-body-2 mdui-m-t-2">
+       <i class="mdui-icon material-icons">insert_drive_file</i> Media information
     </div>
     <div class="mdui-textfield">
       <label class="mdui-textfield-label mdui-text-color-theme">Name</label>
-      <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
+      <input class="mdui-textfield-input" type="text" value="${file_name}"/>
     </div>
     
     <div class="mdui-textfield">
