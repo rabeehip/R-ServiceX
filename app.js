@@ -6383,16 +6383,16 @@ function file_video(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-typo-body-2 mdui-m-t-2 mdui-text-color-theme">
+    <div class="mdui-typo-body-2 mdui-m-t-2">
        <i class="mdui-icon material-icons">insert_drive_file</i> File Properties
     </div>
     <div class="mdui-textfield">
-      <label class="mdui-textfield-label mdui-text-color-theme">Name</label>
+      <label class="mdui-textfield-label">Name</label>
       <input class="mdui-textfield-input" type="text" value="${file_name}" readonly/>
     </div>
     
     <div class="mdui-textfield">
-      <label class="mdui-textfield-label mdui-text-color-theme">Download Link</label>
+      <label class="mdui-textfield-label">Download Link</label>
       <input class="mdui-textfield-input" type="text" value="${url}" readonly />
     </div>
 
