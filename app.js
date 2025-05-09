@@ -6188,7 +6188,12 @@ function onSearchResultItemClick(a_ele) {
       const linkHTML = `<span class="mdui-text-color-theme" style="margin-left: 4px;">${name}</span> ${icon}`;
       
       mdui.dialog({
-        title: '<i class="mdui-icon material-icons">description</i> Search detail(s)',
+        title: `
+           <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
+           <i class="mdui-icon material-icons">description</i> Search information
+           </div>
+        `,
+       /* title: '<i class="mdui-icon material-icons">description</i> Search detail(s)', */
         content: linkHTML,
         history: false,
         modal: true,
