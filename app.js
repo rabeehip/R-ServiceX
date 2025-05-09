@@ -6190,7 +6190,7 @@ function onSearchResultItemClick(a_ele) {
       mdui.dialog({
         title: `
            <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
-            <i class="mdui-icon material-icons">lightbulb_outline</i> Choose your opted-for option
+            <i class="mdui-icon material-icons">check_circle_outline</i> Choose your opted-for option
            </div>
         `,
         content: linkHTML,
@@ -6384,7 +6384,7 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- ???? -->
     <div class="mdui-typo-title mdui-m-t-2">
-       <span class="mdui-text-color-theme"><i class="mdui-icon material-icons">description</i> Media informations</span>
+       <span class="mdui-text-color-theme"><i class="mdui-icon material-icons">info</i> Media info</span>
     </div>
     <div class="mdui-textfield">
       <label class="mdui-textfield-label">Name</label>
