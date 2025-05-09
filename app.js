@@ -6387,11 +6387,10 @@ function file_video(path) {
 	  <label class="mdui-textfield-label">Download link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
-
-</div>
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
   <i class="mdui-icon material-icons" aria-hidden="true">file_download</i>
 </button>
+</div>
 	`;
   $("#content").html(content);
   $("#copy-link").on("click", () => {
