@@ -6303,7 +6303,7 @@ function file_code(path) {
     	<input class="mdui-textfield-input" type="text" value="${file_name}"/>
     </div>
     <div class="mdui-textfield">
-    	<label class="mdui-textfield-label">📥 Download link</label>
+    	<label class="mdui-textfield-label">⬇️ Download link</label>
     	<input class="mdui-textfield-input" type="text" value="${href}"/>
     </div>
     <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
@@ -6384,7 +6384,7 @@ function file_video(path) {
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
     </div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📥 Download link</label>
+	  <label class="mdui-textfield-label">⬇️ Download link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
@@ -6466,7 +6466,7 @@ function file_audio(path) {
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
     </div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📥 Download link</label>
+	  <label class="mdui-textfield-label">⬇️ Download link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
@@ -6520,7 +6520,7 @@ function file_pdf(path) {
 	  <input class="mdui-textfield-input" type="text" value="${display_name}"/>
   </div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📥 Download link</label>
+	  <label class="mdui-textfield-label">⬇️ Download link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
     </div>
   <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
@@ -6593,7 +6593,7 @@ function file_image(path) {
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
   </div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📥 Download link</label>
+	  <label class="mdui-textfield-label">⬇️ Download link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
     <br>
