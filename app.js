@@ -6387,12 +6387,12 @@ function file_video(path) {
        <i class="mdui-icon material-icons">insert_drive_file</i> File Properties
     </div>
     <div class="mdui-textfield">
-      <label class="mdui-textfield-label">Name</label>
+      <label class="mdui-textfield-label mdui-typo-body-1">Name</label>
       <input class="mdui-textfield-input" type="text" value="${file_name}" readonly/>
     </div>
     
     <div class="mdui-textfield">
-      <label class="mdui-textfield-label">Download Link</label>
+      <label class="mdui-textfield-label mdui-typo-body-1">Download Link</label>
       <input class="mdui-textfield-input" type="text" value="${url}" readonly />
     </div>
 
