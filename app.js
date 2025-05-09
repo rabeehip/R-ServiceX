@@ -6380,10 +6380,12 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- ???? -->
     <div class="mdui-textfield">
+      <i class="mdui-icon material-icons dummyclass">file_download</i>
       <label class="mdui-textfield-label">Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
     </div>
 	<div class="mdui-textfield">
+      <i class="mdui-icon material-icons dummyclass">insert_drive_file</i>
 	  <label class="mdui-textfield-label">Download link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
