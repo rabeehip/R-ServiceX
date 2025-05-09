@@ -13,7 +13,7 @@ const authConfig = {
 
   // Encryption secret key used to secure file IDs (must be exactly 32 characters)
   // Avoid using these characters: (\, /, ", ')
-  crypt_secret: "xxxx...", // Required for encrypted ID resolution during file search
+  crypt_secret: "xxxx...", // Required for encrypted ID resolution during file manipulations (ex. Search function)
 
   /**
    * Configuration for displaying one or more Google Drive sources
