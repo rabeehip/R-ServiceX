@@ -6380,11 +6380,11 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- ???? -->
     <div class="mdui-textfield">
-      <label class="mdui-textfield-label">⎙ Name</label>
+      <label class="mdui-textfield-label">📁 Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
     </div>
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">▼ Download link</label>
+	  <label class="mdui-textfield-label">📥 Download link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
@@ -6461,25 +6461,14 @@ function file_audio(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-textfield mdui-textfield-floating-label">
-  <label class="mdui-textfield-label">
-    <i class="mdui-icon material-icons" style="vertical-align: middle;">insert_drive_file</i>
-    File Name
-  </label>
-  <div class="mdui-typo mdui-text-color-theme">
-    ${file_name}
-  </div>
-</div>
-
-<div class="mdui-textfield mdui-textfield-floating-label">
-  <label class="mdui-textfield-label">
-    <i class="mdui-icon material-icons" style="vertical-align: middle;">file_download</i>
-    Download Link
-  </label>
-  <div class="mdui-typo mdui-text-truncate">
-    ${href}
-  </div>
-</div>
+    <div class="mdui-textfield">
+	  <label class="mdui-textfield-label">📁 Name</label>
+	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
+    </div>
+	<div class="mdui-textfield">
+	  <label class="mdui-textfield-label">📥 Download link</label>
+	  <input class="mdui-textfield-input" type="text" value="${url}"/>
+	</div>
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
   <i class="mdui-icon material-icons" aria-hidden="true">file_download</i>
 </button>
