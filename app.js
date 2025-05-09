@@ -6193,7 +6193,6 @@ function onSearchResultItemClick(a_ele) {
            <i class="mdui-icon material-icons">info</i> Search detail(s)
            </div>
         `,
-       /* title: '<i class="mdui-icon material-icons">description</i> Search detail(s)', */
         content: linkHTML,
         history: false,
         modal: true,
