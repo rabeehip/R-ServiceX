@@ -99,7 +99,7 @@ const uiConfig = {
   //          "light-blue", "cyan", "teal", "green", "light-green", "lime", "yellow",
   //          "amber", "orange", "deep-orange", "brown", "grey"
   main_color: "blue-grey", // Primary theme color (affects background/toolbars)
-  accent_color: "blue", // Accent highlight color (excludes: blue-grey, grey, brown) (affects buttons, active elements)
+  accent_color: "black", // Accent highlight color (excludes: blue-grey, grey, brown) (affects buttons, active elements)
 };
 /**
  * Google Workspace Apps Export config
