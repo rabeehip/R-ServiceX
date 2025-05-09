@@ -6383,6 +6383,9 @@ function file_video(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
+	<div class="mdui-textfield">
+	 <i class="mdui-icon material-icons">description</i>File detail(s)
+    </div>
     <div class="mdui-textfield">
       <label class="mdui-textfield-label">📂 Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
