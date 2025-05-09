@@ -6175,8 +6175,6 @@ function onSearchResultItemClick(a_ele) {
   });
 
   mdui.updateSpinners();
-  console.log(`Requesting path for ID: ${fileId} in drive: ${cur}`);
-
   $.post(`/${cur}:id2path`, { id: fileId }, function (data) {
     dialog.close();
     
