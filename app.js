@@ -6190,7 +6190,7 @@ function onSearchResultItemClick(a_ele) {
       const linkHTML = `${icon} <a href="${href}" style="margin-left: 4px;">${name}</a>`;
     
       mdui.dialog({
-        title: '<i class="mdui-icon material-icons">info</i> Search(info)',
+        title: '<i class="mdui-icon material-icons dummyclass">info</i> Search(info)',
         content: linkHTML,
         history: false,
         modal: true,
