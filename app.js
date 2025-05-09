@@ -6379,11 +6379,11 @@ function file_video(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-textfield mdui-textfield-floating-label">
+    <div class="mdui-textfield">
       <label class="mdui-textfield-label">Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
     </div>
-	<div class="mdui-textfield mdui-textfield-floating-label">
+	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">Download link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
