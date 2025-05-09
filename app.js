@@ -6299,7 +6299,7 @@ function file_code(path) {
     <pre id="editor" ></pre>
     </div>
     <div class="mdui-textfield">
-    	<label class="mdui-textfield-label">📁 Name</label>
+    	<label class="mdui-textfield-label">📂 Name</label>
     	<input class="mdui-textfield-input" type="text" value="${file_name}"/>
     </div>
     <div class="mdui-textfield">
@@ -6380,7 +6380,7 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- ???? -->
     <div class="mdui-textfield">
-      <label class="mdui-textfield-label">📁 Name</label>
+      <label class="mdui-textfield-label">📂 Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
     </div>
 	<div class="mdui-textfield">
@@ -6462,7 +6462,7 @@ function file_audio(path) {
 	<br>${playBtn}
 	<!-- ???? -->
     <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📁 Name</label>
+	  <label class="mdui-textfield-label">📂 Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
     </div>
 	<div class="mdui-textfield">
@@ -6516,7 +6516,7 @@ function file_pdf(path) {
   <br>
 	<!-- ???? -->
   <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📁 Name</label>
+	  <label class="mdui-textfield-label">📂 Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${display_name}"/>
   </div>
 	<div class="mdui-textfield">
@@ -6589,7 +6589,7 @@ function file_image(path) {
     </div>
 	<br>
   <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📁 Name</label>
+	  <label class="mdui-textfield-label">📂 Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
   </div>
 	<div class="mdui-textfield">
