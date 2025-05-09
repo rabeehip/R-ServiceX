@@ -6185,7 +6185,7 @@ function onSearchResultItemClick(a_ele) {
         ? '<i class="mdui-icon material-icons">folder</i>'
         : '<i class="mdui-icon material-icons">insert_drive_file</i>';
       const href = `/${cur}:${data}${can_preview ? "?a=view" : ""}`;
-      const linkHTML = `<span class="mdui-text-color-theme" style="margin-left: 4px;">${name}</span> ${icon}`;
+      const linkHTML = `${icon} <span class="mdui-text-color-theme" style="margin-left: 5px;">${name}</span>`;
       
       mdui.dialog({
         title: `
