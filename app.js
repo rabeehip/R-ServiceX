@@ -6165,7 +6165,7 @@ function onSearchResultItemClick(a_ele) {
   let dialog = mdui.dialog({
     content: `
       <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
-       Processing...
+       Please wait
       </div>
       <div class="mdui-spinner mdui-spinner-colorful mdui-center"></div>
     `,
@@ -6185,7 +6185,7 @@ function onSearchResultItemClick(a_ele) {
         ? '<i class="mdui-icon material-icons">folder</i>'
         : '<i class="mdui-icon material-icons">insert_drive_file</i>';
       const href = `/${cur}:${data}${can_preview ? "?a=view" : ""}`;
-      const linkHTML = `${icon} <span class="mdui-text-color-theme" style="margin-left: 4px;">${name}</span>`;
+      const linkHTML = `<span class="mdui-text-color-theme" style="margin-left: 4px;">${name}</span> ${icon}`;
       
       mdui.dialog({
         title: '<i class="mdui-icon material-icons">description</i> Search detail(s)',
