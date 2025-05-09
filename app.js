@@ -6185,12 +6185,12 @@ function onSearchResultItemClick(a_ele) {
         ? '<i class="mdui-icon material-icons">folder</i>'
         : '<i class="mdui-icon material-icons">insert_drive_file</i>';
       const href = `/${cur}:${data}${can_preview ? "?a=view" : ""}`;
-      const linkHTML = `${icon} <span class="mdui-text-color-theme" style="margin-left: 5px;">${name}</span>`;
+      const linkHTML = `${icon} <span class="mdui-text-color-theme" style="margin-left: 4px;">${name}</span>`;
       
       mdui.dialog({
         title: `
            <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
-           <i class="mdui-icon material-icons">info</i> Search detail(s)
+            <span class="mdui-text-color-theme"><i class="mdui-icon material-icons">info</i> Search detail(s)</span>
            </div>
         `,
         content: linkHTML,
@@ -6383,11 +6383,9 @@ function file_video(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-typo dummyclass">
-      <i class="mdui-icon material-icons">description</i>
-      <span class="mdui-text-color-theme">File Detail(s)</span>
+    <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
+      <i class="mdui-icon material-icons">description</i>File detail(s)
     </div>
-    
     <div class="mdui-textfield">
       <label class="mdui-textfield-label">Name</label>
       <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
