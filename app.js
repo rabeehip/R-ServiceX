@@ -6190,7 +6190,7 @@ function onSearchResultItemClick(a_ele) {
       mdui.dialog({
         title: `
            <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
-           <i class="mdui-icon material-icons">description</i> Search information
+           <i class="mdui-icon material-icons">info</i> Search detail(s)
            </div>
         `,
        /* title: '<i class="mdui-icon material-icons">description</i> Search detail(s)', */
