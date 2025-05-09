@@ -6197,14 +6197,14 @@ function onSearchResultItemClick(a_ele) {
         closeOnEsc: true,
         buttons: [
           {
-            text: "Open in same tab",
+            text: "Open in this tab",
             onClick: () => window.location.href = href,
           },
           {
             text: "Open in new tab",
             onClick: () => window.open(href),
           },
-          { text: "Cancel" },
+          { text: "Close" },
         ],
       });
     }else {
