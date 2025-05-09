@@ -6383,17 +6383,17 @@ function file_video(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-typo">
-      <i class="mdui-icon material-icons" style="vertical-align: middle;">description</i>
+    <div class="mdui-typo dummyclass">
+      <i class="mdui-icon material-icons">description</i>
       <span class="mdui-text-color-theme">File Detail(s)</span>
     </div>
     
-    <div class="mdui-textfield mdui-textfield-floating-label">
+    <div class="mdui-textfield">
       <label class="mdui-textfield-label">Name</label>
       <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
     </div>
     
-    <div class="mdui-textfield mdui-textfield-floating-label">
+    <div class="mdui-textfield">
       <label class="mdui-textfield-label">Download Link</label>
       <input class="mdui-textfield-input" type="text" value="${url}" readonly />
     </div>
