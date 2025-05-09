@@ -191,7 +191,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//cdn.jsdelivr.net/gh/rabeehip/R-ServiceX@X/app.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/rabeehip/R-ServiceX/app.js"></script>
 </head>
 <body>
 </html>
