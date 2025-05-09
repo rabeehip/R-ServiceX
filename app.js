@@ -6383,15 +6383,21 @@ function file_video(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <i class="mdui-icon material-icons">description</i>File detail(s)
-    <div class="mdui-textfield">
-      <label class="mdui-textfield-label">📂 Name</label>
-	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
+    <div class="mdui-typo">
+      <i class="mdui-icon material-icons" style="vertical-align: middle;">description</i>
+      <span class="mdui-text-color-theme">File Detail(s)</span>
     </div>
-	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📥 Download link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}"/>
-	</div>
+    
+    <div class="mdui-textfield mdui-textfield-floating-label">
+      <label class="mdui-textfield-label">Name</label>
+      <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
+    </div>
+    
+    <div class="mdui-textfield mdui-textfield-floating-label">
+      <label class="mdui-textfield-label">Download Link</label>
+      <input class="mdui-textfield-input" type="text" value="${url}" readonly />
+    </div>
+
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
   <i class="mdui-icon material-icons" aria-hidden="true">file_download</i>
 </button>
