@@ -6188,7 +6188,7 @@ function onSearchResultItemClick(a_ele) {
       const linkHTML = `${icon} <span class="mdui-text-color-theme" style="margin-left: 4px;">${name}</span>`;
       
       mdui.dialog({
-        title: 'Search(info) <i class="mdui-icon material-icons">search</i>',
+        title: '<i class="mdui-icon material-icons">description</i> Search detail(s)',
         content: linkHTML,
         history: false,
         modal: true,
@@ -6461,18 +6461,29 @@ function file_audio(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📁 Name</label>
-	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
-    </div>
-	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📥 Download link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}"/>
-	</div>
+    <div class="mdui-textfield mdui-textfield-floating-label">
+  <label class="mdui-textfield-label">
+    <i class="mdui-icon material-icons" style="vertical-align: middle;">insert_drive_file</i>
+    File Name
+  </label>
+  <div class="mdui-typo mdui-text-color-theme">
+    ${file_name}
+  </div>
+</div>
+
+<div class="mdui-textfield mdui-textfield-floating-label">
+  <label class="mdui-textfield-label">
+    <i class="mdui-icon material-icons" style="vertical-align: middle;">file_download</i>
+    Download Link
+  </label>
+  <div class="mdui-typo mdui-text-truncate">
+    ${href}
+  </div>
 </div>
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
   <i class="mdui-icon material-icons" aria-hidden="true">file_download</i>
 </button>
+</div>
 	`;
   $("#content").html(content);
   $("#copy-link").on("click", () => {
