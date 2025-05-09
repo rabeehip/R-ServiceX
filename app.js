@@ -6165,7 +6165,7 @@ function onSearchResultItemClick(a_ele) {
   let dialog = mdui.dialog({
     content: `
       <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
-        Getting target path...
+       Processing...
       </div>
       <div class="mdui-spinner mdui-spinner-colorful mdui-center"></div>
     `,
