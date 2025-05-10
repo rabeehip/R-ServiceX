@@ -6384,7 +6384,7 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- ???? -->
     <div class="mdui-typo-title mdui-m-t-2">
-       <i class="mdui-icon material-icons">insert_drive_file</i> File overview
+       <i class="mdui-icon material-icons">cloud_download</i> Here is your direct download link, or your can watch without downloading it.
     </div>
     <div class="mdui-textfield">
        <label class="mdui-textfield-label mdui-typo-title">Name</label>
