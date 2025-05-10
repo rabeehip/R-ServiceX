@@ -6387,7 +6387,7 @@ function file_video(path) {
        <i class="mdui-icon material-icons">insert_drive_file</i> Media info
     </div>
     <div class="mdui-textfield">
-      <div class="mdui-typo-caption mdui-typo-body-2 ">
+      <div class="mdui-typo-body-2">
       <label class="mdui-textfield-label">Name</label>
       </div>
       <div class="mdui-typo-caption">
