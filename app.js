@@ -6182,7 +6182,7 @@ function onSearchResultItemClick(a_ele) {
       const name = data.split('/').filter(Boolean).pop();
       const isFolder = data.endsWith('/');
       const icon = isFolder
-        ? '<i class="mdui-icon material-icons">folder</i>'
+        ? '<i class="mdui-icon material-icons">folder_open</i>'
         : '<i class="mdui-icon material-icons">insert_drive_file</i>';
       const href = `/${cur}:${data}${can_preview ? "?a=view" : ""}`;
       const linkHTML = `<span class="mdui-typo-caption">${icon} ${name}</span>`;
@@ -6384,7 +6384,7 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- ???? -->
     <div class="mdui-typo-body-2 mdui-m-t-2">
-       <i class="mdui-icon material-icons">cloud_download</i> Here is your direct download link
+       <i class="mdui-icon material-icons">download_for_offline</i> Here is your direct download link
     </div>
     <div class="mdui-textfield">
        <label class="mdui-textfield-label mdui-typo-title">Name</label>
