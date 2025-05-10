@@ -6392,7 +6392,7 @@ function file_video(path) {
     </div>
     
     <div class="mdui-textfield">
-      <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Download Link</label>
+      <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Download link</label>
       <input class="mdui-textfield-input" type="text" value="${url}" readonly />
     </div>
 
