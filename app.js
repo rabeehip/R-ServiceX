@@ -5708,7 +5708,7 @@ function nav(path) {
   var names = window.drive_names;
   html += `<select class="mdui-select" onchange="window.location.href=this.value" mdui-select style="overflow:visible;">`;
   names.forEach((name, idx) => {
-    html += `<option value="/${idx}:/"  ${
+    html += `<option mdui-text-color-theme value="/${idx}:/"  ${
       idx === cur ? 'selected="selected"' : ""
     } >${name}</option>`;
   });
@@ -6164,10 +6164,12 @@ function onSearchResultItemClick(a_ele) {
 
   let dialog = mdui.dialog({
     content: `
-      <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
-       Please wait
+    <div class="mdui-row mdui-typo-title mdui-justify-center mdui-m-b-1 mdui-text-center">
+      <div class="mdui-col-auto">Processing...</div>
+      <div class="mdui-col-auto">
+        <div class="mdui-spinner mdui-spinner-colorful"></div>
       </div>
-      <div class="mdui-spinner mdui-spinner-colorful mdui-center"></div>
+    </div>
     `,
     history: false,
     modal: true,
