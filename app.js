@@ -6388,12 +6388,12 @@ function file_video(path) {
     </div>
     <div class="mdui-textfield">
        <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Name</label>
-       <input class="mdui-textfield-input mdui-text-color-theme" type="text" value="${file_name}" readonly />
+       <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
     </div>
     
     <div class="mdui-textfield">
       <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Download Link</label>
-      <input class="mdui-textfield-input mdui-text-color-theme" type="text" value="${url}" readonly />
+      <input class="mdui-textfield-input" type="text" value="${url}" readonly />
     </div>
 
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
