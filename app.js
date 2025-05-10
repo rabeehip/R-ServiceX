@@ -6164,10 +6164,10 @@ function onSearchResultItemClick(a_ele) {
 
   let dialog = mdui.dialog({
     content: `
-        <div class="mdui-row mdui-typo-title mdui-justify-center mdui-m-b-1 mdui-text-center">
-          <div class="mdui-col-auto">Processing...<div class="mdui-spinner mdui-spinner-colorful"></div>
-          </div>
-        </div>
+      <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
+        Please Wait
+      </div>
+      <div class="mdui-spinner mdui-spinner-colorful mdui-center"></div>
     `,
     history: false,
     modal: true,
