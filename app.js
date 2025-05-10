@@ -6383,8 +6383,8 @@ function file_video(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-typo-body-2 mdui-m-t-2">
-       <i class="mdui-icon material-icons">play_circle_outline</i> Media Information
+    <div class="mdui-typo-subheading mdui-m-t-2">
+       <i class="mdui-icon material-icons">insert_drive_file</i> File overview
     </div>
     <div class="mdui-textfield">
        <label class="mdui-textfield-label mdui-typo-title">Name</label>
