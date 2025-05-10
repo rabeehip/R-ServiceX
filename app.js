@@ -6384,7 +6384,7 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- ???? -->
     <div class="mdui-typo-body-2 mdui-text-color-theme mdui-m-t-2">
-       <i class="mdui-icon material-icons">insert_drive_file</i> Kindly refer to the link below to directly download the file.
+       <i class="mdui-icon material-icons">cloud_download</i> Kindly refer to the link below to directly download the file.
     </div>
     <div class="mdui-textfield">
        <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Name</label>
