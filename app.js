@@ -5710,8 +5710,9 @@ function nav(path) {
   names.forEach((name, idx) => {
     html += `<option value="/${idx}:/"  ${
       idx === cur ? 'selected="selected"' : ""
-    } ><span class="mdui-text-color-theme">${name}</span></option>`;
+    } >${name}</option>`;
   });
+  console.log(names)
   html += `</select><div class="mdui-toolbar nav-style dummyclass3" style="margin-top:0px!important">`;
   html += `<a href="/${cur}:/" class="mdui-typo-headline folder" style="background-color:transparent">${document.siteName}</a>`;
   if (!model.is_search_page) {
@@ -6378,7 +6379,7 @@ function file_video(path) {
 <div class="mdui-container-fluid">
 	<br>
 	<div class="mdui-video-fluid mdui-center">
-	  <video id="video-id" class="video-js vjs-default-skin  mdui-text-color-theme" controls preload="auto" width="100%" height="auto">
+	  <video id="video-id" class="video-js vjs-default-skin" controls preload="auto" width="100%" height="auto">
         <source src=${url} type="video/mp4">
         Your browser does not support the video tag or the file format of this video.
       </video>
