@@ -6383,8 +6383,8 @@ function file_video(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-text-center mdui-typo-body-2 mdui-m-t-2">
-       <i class="mdui-icon material-icons">cloud_download</i> Here is your direct download link ↓
+    <div class="mdui-text-center mdui-typo-title mdui-m-t-2">
+       <i class="mdui-icon material-icons">cloud_download</i> Here is your direct download link
     </div>
     <div class="mdui-textfield">
        <label class="mdui-textfield-label mdui-typo-title">Name</label>
