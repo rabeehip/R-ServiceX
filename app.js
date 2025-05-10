@@ -6302,13 +6302,16 @@ function file_code(path) {
     <div class="mdui-container">
     <pre id="editor" ></pre>
     </div>
-    <div class="mdui-textfield">
-    	<label class="mdui-textfield-label">📂 Name</label>
-    	<input class="mdui-textfield-input" type="text" value="${file_name}"/>
+    <div class="mdui-typo-body-2 mdui-text-color-theme mdui-m-t-2">
+       <i class="mdui-icon material-icons">description</i> File & download description.
     </div>
     <div class="mdui-textfield">
-    	<label class="mdui-textfield-label">📥 Download link</label>
-    	<input class="mdui-textfield-input" type="text" value="${href}"/>
+       <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Name</label>
+       <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
+    </div>
+    <div class="mdui-textfield">
+      <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Download link</label>
+      <input class="mdui-textfield-input" type="text" value="${url}" readonly />
     </div>
     <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
       <i class="mdui-icon material-icons" aria-hidden="true">file_download</i>
@@ -6390,12 +6393,10 @@ function file_video(path) {
        <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Name</label>
        <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
     </div>
-    
     <div class="mdui-textfield">
       <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Download link</label>
       <input class="mdui-textfield-input" type="text" value="${url}" readonly />
     </div>
-
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
   <i class="mdui-icon material-icons" aria-hidden="true">file_download</i>
 </button>
@@ -6470,14 +6471,17 @@ function file_audio(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📂 Name</label>
-	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
+     <div class="mdui-typo-body-2 mdui-text-color-theme mdui-m-t-2">
+       <i class="mdui-icon material-icons">description</i> File & download description.
     </div>
-	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📥 Download link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}"/>
-	</div>
+    <div class="mdui-textfield">
+       <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Name</label>
+       <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
+    </div>
+    <div class="mdui-textfield">
+      <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Download link</label>
+      <input class="mdui-textfield-input" type="text" value="${url}" readonly />
+    </div>
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
   <i class="mdui-icon material-icons" aria-hidden="true">file_download</i>
 </button>
@@ -6522,15 +6526,18 @@ function file_pdf(path) {
   );
   var content = `
 	<object data="${inline_url}" type="application/pdf" name="${file_name}" style="width:100%;height:94vh;"><embed src="${inline_url}" type="application/pdf"/></object>
-  <br>
+    <br>
 	<!-- ???? -->
-  <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📂 Name</label>
-	  <input class="mdui-textfield-input" type="text" value="${display_name}"/>
-  </div>
-	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📥 Download link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}"/>
+    <div class="mdui-typo-body-2 mdui-text-color-theme mdui-m-t-2">
+       <i class="mdui-icon material-icons">description</i> File & download description.
+    </div>
+    <div class="mdui-textfield">
+       <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Name</label>
+       <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
+    </div>
+    <div class="mdui-textfield">
+      <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Download link</label>
+      <input class="mdui-textfield-input" type="text" value="${url}" readonly />
     </div>
   <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
    <i class="mdui-icon material-icons" aria-hidden="true">file_download</i>
@@ -6597,19 +6604,22 @@ function file_image(path) {
 	    <img class="mdui-img-fluid" src="${url}"/>
     </div>
 	<br>
-  <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📂 Name</label>
-	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
-  </div>
-	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">📥 Download link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}"/>
-	</div>
+    <div class="mdui-typo-body-2 mdui-text-color-theme mdui-m-t-2">
+       <i class="mdui-icon material-icons">description</i> File & download description.
+    </div>
+    <div class="mdui-textfield">
+       <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Name</label>
+       <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
+    </div>
+    <div class="mdui-textfield">
+      <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Download link</label>
+      <input class="mdui-textfield-input" type="text" value="${url}" readonly />
+    </div>
     <br>
-</div>
 <button onclick="location.href='${url}'" title="Download Content" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" aria-label="Download">
   <i class="mdui-icon material-icons" aria-hidden="true">file_download</i>
 </button>
+</div>
     `;
   $("#content").html(content);
   $("#leftBtn, #rightBtn").click((e) => {
