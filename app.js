@@ -6185,7 +6185,7 @@ function onSearchResultItemClick(a_ele) {
         ? '<i class="mdui-icon material-icons">folder</i>'
         : '<i class="mdui-icon material-icons">insert_drive_file</i>';
       const href = `/${cur}:${data}${can_preview ? "?a=view" : ""}`;
-      const linkHTML = `${icon} <span class="mdui-text-color-theme">${name}</span>`;
+      const linkHTML = `${icon} <strong class="mdui-text-color-theme"> ${name} </strong>`;
       
       mdui.dialog({
         title: `
@@ -6384,15 +6384,19 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- ???? -->
     <div class="mdui-typo-body-2 mdui-m-t-2">
-       <i class="mdui-icon material-icons">insert_drive_file</i> File Properties
+       <i class="mdui-icon material-icons">insert_drive_file</i> Media info
     </div>
     <div class="mdui-textfield">
-      <label class="mdui-textfield-label mdui-typo-body-1">Name</label>
-      <input class="mdui-textfield-input" type="text" value="${file_name}" readonly/>
+      <div class="mdui-typo-caption mdui-typo-body-2 ">
+      <label class="mdui-textfield-label">Name</label>
+      </div>
+      <div class="mdui-typo-caption">
+        <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
+      </div>
     </div>
     
     <div class="mdui-textfield">
-      <label class="mdui-textfield-label mdui-typo-body-1">Download Link</label>
+      <label class="mdui-textfield-label mdui-typo-body-2">Download Link</label>
       <input class="mdui-textfield-input" type="text" value="${url}" readonly />
     </div>
 
