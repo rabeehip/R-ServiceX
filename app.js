@@ -6383,15 +6383,15 @@ function file_video(path) {
     </div>
 	<br>${playBtn}
 	<!-- ???? -->
-    <div class="mdui-typo-body-2 mdui-m-t-2">
+    <div class="mdui-typo-body-2 mdui-text-color-theme mdui-m-t-2">
        <i class="mdui-icon material-icons">cloud_download</i> Here is your direct download link
     </div>
-    <div class="mdui-textfield">
+    <div class="mdui-textfield mdui-text-color-theme">
        <label class="mdui-textfield-label mdui-typo-title">Name</label>
        <input class="mdui-textfield-input" type="text" value="${file_name}" readonly />
     </div>
     
-    <div class="mdui-textfield">
+    <div class="mdui-textfield mdui-text-color-theme">
       <label class="mdui-textfield-label mdui-typo-title">Download Link</label>
       <input class="mdui-textfield-input" type="text" value="${url}" readonly />
     </div>
