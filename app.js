@@ -6165,7 +6165,7 @@ function onSearchResultItemClick(a_ele) {
   let dialog = mdui.dialog({
     content: `
       <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
-        Please Wait
+        Please Wait.
       </div>
       <div class="mdui-spinner mdui-spinner-colorful mdui-center"></div>
     `,
@@ -6384,7 +6384,7 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- ???? -->
     <div class="mdui-typo-body-2 mdui-text-color-theme mdui-m-t-2">
-       <i class="mdui-icon material-icons">cloud_download</i> Here is your direct download link
+       <i class="mdui-icon material-icons">file_download</i> Here is your direct download link
     </div>
     <div class="mdui-textfield">
        <label class="mdui-textfield-label mdui-typo-title mdui-text-color-theme">Name</label>
