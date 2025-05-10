@@ -5708,9 +5708,9 @@ function nav(path) {
   var names = window.drive_names;
   html += `<select class="mdui-select" onchange="window.location.href=this.value" mdui-select style="overflow:visible;">`;
   names.forEach((name, idx) => {
-    html += `<option mdui-text-color-theme value="/${idx}:/"  ${
+    html += `<option value="/${idx}:/"  ${
       idx === cur ? 'selected="selected"' : ""
-    } >${name}</option>`;
+    } ><span class="mdui-text-color-theme">${name}</span></option>`;
   });
   html += `</select><div class="mdui-toolbar nav-style dummyclass3" style="margin-top:0px!important">`;
   html += `<a href="/${cur}:/" class="mdui-typo-headline folder" style="background-color:transparent">${document.siteName}</a>`;
@@ -6378,7 +6378,7 @@ function file_video(path) {
 <div class="mdui-container-fluid">
 	<br>
 	<div class="mdui-video-fluid mdui-center">
-	  <video id="video-id" class="video-js vjs-default-skin" controls preload="auto" width="100%" height="auto">
+	  <video id="video-id" class="video-js vjs-default-skin  mdui-text-color-theme" controls preload="auto" width="100%" height="auto">
         <source src=${url} type="video/mp4">
         Your browser does not support the video tag or the file format of this video.
       </video>
