@@ -6190,7 +6190,7 @@ function onSearchResultItemClick(a_ele) {
       mdui.dialog({
         title: `
            <div class="mdui-text-center mdui-typo-title mdui-m-b-1">
-           Choose your opted-for method<i class="mdui-icon material-icons">info</i>
+           Choose your opted-for method <i class="mdui-icon material-icons">info</i>
            </div>
         `,
         content: linkHTML,
