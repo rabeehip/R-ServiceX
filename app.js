@@ -6165,9 +6165,7 @@ function onSearchResultItemClick(a_ele) {
   let dialog = mdui.dialog({
     content: `
         <div class="mdui-row mdui-typo-title mdui-justify-center mdui-m-b-1 mdui-text-center">
-          <div class="mdui-col-auto">Processing...</div>
-          <div class="mdui-col-auto">
-            <div class="mdui-spinner mdui-spinner-colorful"></div>
+          <div class="mdui-col-auto">Processing...<div class="mdui-spinner mdui-spinner-colorful"></div>
           </div>
         </div>
     `,
